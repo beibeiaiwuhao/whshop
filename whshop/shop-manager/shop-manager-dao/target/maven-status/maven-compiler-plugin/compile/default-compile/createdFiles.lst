@@ -1,0 +1,11 @@
+cn/whshop/mapper/TbUserMapper.class
+cn/whshop/mapper/TbContentCategoryMapper.class
+cn/whshop/mapper/TbOrderMapper.class
+cn/whshop/mapper/TbItemCatMapper.class
+cn/whshop/mapper/TbContentMapper.class
+cn/whshop/mapper/TbOrderItemMapper.class
+cn/whshop/mapper/TbItemMapper.class
+cn/whshop/mapper/TbOrderShippingMapper.class
+cn/whshop/mapper/TbItemDescMapper.class
+cn/whshop/mapper/TbItemParamItemMapper.class
+cn/whshop/mapper/TbItemParamMapper.class

@@ -1,0 +1,10 @@
+package cn.whshop.controller;
+
+/**
+ * 商品管理Controller
+ * @author haohao
+ *
+ */
+public class ItemController {
+
+}

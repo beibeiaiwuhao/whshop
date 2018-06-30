@@ -1,0 +1,15 @@
+package cn.whshop.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+/**
+ * 商品管理Controller
+ * @author haohao
+ *
+ */
+public class ItemController {
+	
+	@Autowired
+	
+
+}

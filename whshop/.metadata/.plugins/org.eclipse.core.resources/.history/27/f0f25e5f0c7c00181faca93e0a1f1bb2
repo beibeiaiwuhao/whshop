@@ -1,0 +1,28 @@
+package cn.whshop.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import cn.whshop.pojo.TbItem;
+import cn.whshop.service.ItemService;
+
+/**
+ * 商品管理Controller
+ * @author haohao
+ *
+ */
+public class ItemController {
+	
+	@Autowired
+	private ItemService itemService;
+	
+	@RequestMapping(value = "/item/{itemId}")
+	@ResponseBody
+	public TbItem  getItemById(@PathVariable Long itemId) {
+		return itemService.getItemById(itemId);
+	}
+	
+
+}

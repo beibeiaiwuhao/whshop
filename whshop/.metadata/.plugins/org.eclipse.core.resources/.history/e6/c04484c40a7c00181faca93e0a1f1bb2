@@ -1,0 +1,22 @@
+package cn.whshop.service.impl;
+
+import cn.whshop.mapper.TbItemMapper;
+import cn.whshop.pojo.TbItem;
+import cn.whshop.service.ItemService;
+
+/**
+ * 商品管理service
+ * @author haohao
+ *
+ */
+public class ItemServiceImpl implements ItemService {
+	
+	private  TbItemMapper tbItemMapper;
+	
+	@Override
+	public TbItem getItemById(Long itemid) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
